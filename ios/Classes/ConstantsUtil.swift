@@ -26,8 +26,11 @@ public struct ConstantsUtil {
         static let ATHM_CHANNEL_NAME = "com.evertecinc/athmovil_checkout_flutter"
         static let ATHM_PAYMENT_RESULT = "paymentResult"
         static let ATHM_PAYMENT_URL = "/rs/eCommerceTransfer/consultTransactionStatus"
-        static let ATHM_TEST_URL = "https://athm-ulink-test-static-website.s3.amazonaws.com/e-commerce/"
-        static let ATHM_PROD_URL = "https://athm-ulink-prod-static-website.s3.amazonaws.com/e-commerce/"
+        //static let ATHM_TEST_URL = "https://athm-ulink-test-static-website.s3.amazonaws.com/e-commerce/"
+        //static let ATHM_PROD_URL = "https://athm-ulink-prod-static-website.s3.amazonaws.com/e-commerce/"
+        // use scheme instead of universal link
+        static let ATHM_TEST_URL = "https://athmovil-ios-qa.web.app/e-commerce/"
+        static let ATHM_PROD_URL = "https://athmovil-ios.web.app/e-commerce/"
         static let ATHM_MOBILE = "mobile"
         static let ATHM_MOBILE_DUMMY = "mobileDummy"
         
